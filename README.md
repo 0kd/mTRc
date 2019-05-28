@@ -2,9 +2,9 @@
 
 clustering tandem repeats
 
-Usage:  mTRc <list of tandem repeats>
+Usage:  mTRc [list of tandem repeats]
 
-<list of tandem repeats>
+[list of tandem repeats]
 
     char    *readID;
 
@@ -34,7 +34,7 @@ Usage:  mTRc <list of tandem repeats>
     
     char    *string;          The string of the repeat unit
 
-Example:
+    Example:
 
     read1   5084    81  1559    1479    26  57  1239    0.837728    195     45      64      5       1   TGACTCTGGCCGTTCACCAAATTTAG   
   
