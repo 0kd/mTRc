@@ -19,7 +19,7 @@ Usage:  mTRc <list of tandem repeats>
     int     ConsensusMethod;  1 = De Bruijn graph search, 0 = progressive multiple alignment
     char    *string;          The string of the repeat unit
 Example:
-read1   5084    81  1559    1479    26  57  1239    0.837728    195     45      64      5       1   TGACTCTGGCCGTTCACCAAATTTAG   
+    read1   5084    81  1559    1479    26  57  1239    0.837728    195     45      64      5       1   TGACTCTGGCCGTTCACCAAATTTAG   
   
 The program outputs groups of tandem repeats. 
  Each group starts with a line of the form:
