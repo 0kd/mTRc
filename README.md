@@ -2,15 +2,15 @@
 
 clustering tandem repeats
 
-Usage:  mTRc [list of tandem repeats]
+Usage:  mTRc [list of tandem repeats in input reads]
 
-[list of tandem repeats]
+One tandem repeat (TR) in a read has the form:
 
     char    *readID;
 
     int     inputLen;         The length of an input read 
 
-    int     rep_start;        The start position of a predicted tandem repeat (TR) in the read
+    int     rep_start;        The start position of a predicted TR in the read
 
     int     rep_end;          The end position of a predicted TR in the read
 
@@ -38,7 +38,7 @@ Usage:  mTRc [list of tandem repeats]
 
     read1   5084    81  1559    1479    26  57  1239    0.837728    195     45      64      5       1   TGACTCTGGCCGTTCACCAAATTTAG   
   
-The program outputs groups of tandem repeats. 
+The program outputs groups of highly similar tandem repeats. 
 
     Each group starts with a line of the form:
     
