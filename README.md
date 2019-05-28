@@ -7,7 +7,6 @@ Usage:  mTRc [list of tandem repeats in input reads]
 One tandem repeat (TR) in a read has the form:
 
     char    *readID;
-
     int     inputLen;         The length of an input read 
 
     int     rep_start;        The start position of a predicted TR in the read
