@@ -22,12 +22,11 @@ Example:
     read1   5084    81  1559    1479    26  57  1239    0.837728    195     45      64      5       1   TGACTCTGGCCGTTCACCAAATTTAG   
   
 The program outputs groups of tandem repeats. 
- Each group starts with a line of the form:
- #members = <number of TRs in the group>  unit-length = <length of the unit of the representative TR in the group>
- A list of tandem repeats in the group follows.
- 
-Example:
-#members = 406  unit-length = 26
-read1   5084    81  1559    1479    26  57  1239    0.837728    195     45      64      5       1   TGACTCTGGCCGTTCACCAAATTTAG      
-read2   9191    81  1524    1444    26  58  1184    0.819945    231     29      116     6       1   TGACTCTGGCCGTTCACCAAATTTAG      
-read3   2007    91  2004    1914    26  75  1731    0.904389    159     24      69      5       1   TGACTCTGGCCGTTCACCAAATTTAG  
+    Each group starts with a line of the form:
+        #members = <number of TRs in the group>  unit-length = <length of the unit of the representative TR in the group>
+    A list of tandem repeats in the group follows.
+    Example:
+    #members = 406  unit-length = 26
+    read1   5084    81  1559    1479    26  57  1239    0.837728    195     45      64      5       1   TGACTCTGGCCGTTCACCAAATTTAG      
+    read2   9191    81  1524    1444    26  58  1184    0.819945    231     29      116     6       1   TGACTCTGGCCGTTCACCAAATTTAG      
+    read3   2007    91  2004    1914    26  75  1731    0.904389    159     24      69      5       1   TGACTCTGGCCGTTCACCAAATTTAG  
